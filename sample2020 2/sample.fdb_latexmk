@@ -1,9 +1,9 @@
 # Fdb version 3
-["dvipdf"] 1603695834 "sample.dvi" "sample.pdf" "sample" 1603695835
-  "sample.dvi" 1603695834 7996 280d6fe651cf4905e2b1e971cfae39f7 "latex"
+["dvipdf"] 1603699283 "sample.dvi" "sample.pdf" "sample" 1603699284
+  "sample.dvi" 1603699283 10708 7805f23d0488f8281c9a7ef4b8930788 "latex"
   (generated)
   "sample.pdf"
-["latex"] 1603695834 "sample.tex" "sample.dvi" "sample" 1603695835
+["latex"] 1603699283 "sample.tex" "sample.dvi" "sample" 1603699284
   "/usr/local/texlive/2020/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -18,7 +18,6 @@
   "/usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm" 1136768653 1124 6c73e740cf17375f03eec0ee63599741 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm" 1136768653 1116 933a60c408fc0a863a92debe84b2d294 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm" 1136768653 1120 8b7d695260f3cff42e636090a8002094 ""
-  "/usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmtt10.tfm" 1136768653 768 1321e9409b4137d6fb428ac9dc956269 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisg-h.tfm" 1522271273 812 52bd92aa20c58a398601cda6dd62c8d1 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisg-v.tfm" 1522271273 536 5f2475e9deb198c23894800d3c5eed00 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisr-h.tfm" 1522271273 812 52bd92aa20c58a398601cda6dd62c8d1 ""
@@ -37,9 +36,9 @@
   "/usr/local/texlive/2020/texmf-var/web2c/euptex/uplatex.fmt" 1595525868 2449933 dcde453ab5a177955b6be629867f1d39 ""
   "/usr/local/texlive/2020/texmf.cnf" 1586288231 577 d60164b4589a341208aff7a667fbbdcb ""
   "funinfosys.sty" 1572925572 7328 871c17e0ec1ada51099063ec6c65bd9d ""
-  "sample.aux" 1603695834 1014 c30e665b21f644bb4ee09aa49fafc07d "latex"
-  "sample.tex" 1603695834 5741 71897cff6140f7a72e08ce73f48f47e3 ""
+  "sample.aux" 1603699283 1226 eee48e9f5b7cf01fcc1146a25f5953de "latex"
+  "sample.tex" 1603699283 7538 a2e9a3794b9eb9b4dafaf0a2df433813 ""
   (generated)
-  "sample.aux"
   "sample.dvi"
   "sample.log"
+  "sample.aux"
