@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.14159265-p3.8.3-u1.26-191112-2.6 (utf8.uptex) (TeX Live 2020) (preloaded format=uplatex 2020.7.24)  26 OCT 2020 17:01
+This is e-upTeX, Version 3.14159265-p3.8.3-u1.26-191112-2.6 (utf8.uptex) (TeX Live 2020) (preloaded format=uplatex 2020.7.24)  26 OCT 2020 17:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -156,11 +156,6 @@ Overfull \vbox (0.73932pt too high) has occurred while \output is active []
 
 
 ]
-Underfull \hbox (badness 2126) in paragraph at lines 76--77
-[]\OT1/cmr/m/n/10.95 A.B.Cdddddd, J. Sys-tems In-for-ma-tion
- []
-
-
 Overfull \vbox (0.73932pt too high) has occurred while \output is active []
 
  [2] (./sample.aux) ) 
@@ -171,6 +166,6 @@ Here is how much of TeX's memory you used:
  16765 multiletter control sequences out of 15000+600000
  544105 words of font info for 73 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 36i,10n,33p,1491b,263s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,10n,33p,1519b,263s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on sample.dvi (2 pages, 10708 bytes).
+Output written on sample.dvi (2 pages, 12692 bytes).
