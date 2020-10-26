@@ -19,7 +19,7 @@ b1017090 熊谷峻\\指導教員 : 松原克弥
 \title{VMMによる軽量かつセキュアなアドホッククラウド基盤}
 \etitle{Lightweight and secure ad hoc cloud platform with VMM}
 \eauthor{Shun Kumagai}
-\abstract{近年，BYODやリモートワークの普及により，組織内に余剰な計算資源が散在するようになっている． そこで，この余剰計算資源を活用したクラウドコンピューティング技術である，アドホッククラウドが注目されている． これを取り入れることで，組織内の計算資源の利用率を向上させることができる． しかし，実行中のコードがPCに影響を与えたり，コード実行中のPCがクラウドから離脱することでクラウドジョブの持続が不可能になるといった課題が存在する． この課題に対処するために，本研究では，軽量なVMMであるBitVisorを用いてコードを実行するPCの環境を保護し，FaaS型クラウドを構築することでクラウドからの離脱を許容できるようなアドホッククラウド基盤を提案する． }
+\abstract{近年，BYODやリモートワークの普及により，組織内に余剰な計算資源が散在するようになっている． そこで，この余剰計算資源を活用したクラウドコンピューティング技術である，アドホッククラウドが注目されている． これを取り入れることで，組織内の計算資源の利用率を向上させることができる． しかし，実行中のコードがPCに影響を与えたり，コード実行中のPCがクラウドから離脱することでクラウドジョブの持続が不可能になるといった課題が存在する． この課題に対処するために，本研究では，軽量なVMMであるBitVisorを用いてコードを実行するPCの環境を保護し，FaaS型クラウドを構築することでクラウドからの離脱を許容できるようなアドホッククラウド基盤を提案する．}
 \keywords{VMM, アドホッククラウド, FaaS}
 \eabstract{In recent years, due to the spread of BYOD and remote working, surplus computing resources are scattered throughout organizations． Therefore, ad hoc cloud computing technology, which is a cloud computing technology that makes use of these surplus computing resources, has been attracting attention． Ad-hoc cloud computing is one of the most popular cloud computing technologies． However, there are some problems, such as the impact of the running code on the PC and the persistence of the cloud job cannot be sustained due to the departure of the PC from the cloud． To deal with these problems, we propose an ad-hoc cloud infrastructure that protects the environment of the PC executing the code using BitVisor, a lightweight VMM, and allows the PC to leave the cloud by constructing a FaaS-type cloud． }
 \ekeywords{VMM, ad hoc cloud, FaaS}
@@ -45,6 +45,16 @@ b1017090 熊谷峻\\指導教員 : 松原克弥
 
 \subsection{プロセスマイグレーション}
 2つ目の既存技術として，プロセスマイグレーションがある．プロセスマイグレーションとは別の環境にシステムやデータなどを切り替えることである．コードを実行中のインスタンスをマイグレーションすることにより，クラウドジョブを持続することができるため，コード実行中のPCがクラウドから離脱することを許容できるようになる．しかし，問題点として，アドホッククラウドは動的に変化する計算資源を利用するため，頻繁にマイグレーションが発生してしまい，オーバーヘッドが発生することがある．また，異種OSで実現する場合は，複雑な実装と高度なマイグレーション方法が必要となってしまう．
+
+\subsection{提案}
+本研究では，Function as a Service(FaaS) 型クラウドを構築し，軽量なVMMであるBitVisorを用いたセキュアなアドホッククラウド基盤を提案する.
+
+\subsection{Virtual Machine Monitor(VMM)}
+本研究では，VMMを利用する.VMMはハイパーバイザとも呼ばれる，ハードウェアとOSの間で動作するソフトウェアである.ホストOS上で動作するホスト型と違って，ハイパーバイザ型は，OSよりも下の層に位置するため，ハードウェアへアクセスする際にホストOSを経由しない．そのため，仮想化によるオーバーヘッドを抑えることができ，OSに依存しないので異種OSで実現可能となる. しかし，OSとハードウェアの通信にVMMが介在することによってオーバーヘッドが発生してしまう.そこで，軽量なVMMであるBitVisorを活用する.
+BitVisorは，特定のデバイスのみ仮想化し，必要最低限のI/Oのみを監視・制御する準パススルー型VMMである．また，本来ハイパーバイザは複数のゲストOSで動作するが，その機能が省略されているため，軽量なことが特徴である.このBitVisorを利用することで，仮想化によるオーバーヘッドを軽減する.さらに，BitVisorには，計算資源は共有しつつも，ユーザ環境から隔離された実行環境を実現できる保護ドメインという機能がある．この保護ドメインにインスタンスを作成することで，OS環境へ影響を与えることを防ぐ.
+
+\subsection{FaaS}
+
 
 
 \section{先行研究}

@@ -1,9 +1,9 @@
 # Fdb version 3
-["dvipdf"] 1603704122 "sample.dvi" "sample.pdf" "sample" 1603704123
-  "sample.dvi" 1603704122 14260 81a75046838374a65f8c7788be4aaa39 "latex"
+["dvipdf"] 1603708338 "sample.dvi" "sample.pdf" "sample" 1603708339
+  "sample.dvi" 1603708338 16824 f050ae32744be2b21e4d549c03be2192 "latex"
   (generated)
   "sample.pdf"
-["latex"] 1603704122 "sample.tex" "sample.dvi" "sample" 1603704123
+["latex"] 1603708338 "sample.tex" "sample.dvi" "sample" 1603708339
   "/usr/local/texlive/2020/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -36,9 +36,9 @@
   "/usr/local/texlive/2020/texmf-var/web2c/euptex/uplatex.fmt" 1595525868 2449933 dcde453ab5a177955b6be629867f1d39 ""
   "/usr/local/texlive/2020/texmf.cnf" 1586288231 577 d60164b4589a341208aff7a667fbbdcb ""
   "funinfosys.sty" 1572925572 7328 871c17e0ec1ada51099063ec6c65bd9d ""
-  "sample.aux" 1603704122 1554 1c4b63c8129851c2de652ee61111d5c0 "latex"
-  "sample.tex" 1603704121 9702 e2fecf2369bec54f6b8b93b814abd463 ""
+  "sample.aux" 1603708338 1865 1504a68c7155287c4dec5d23bd76d41d "latex"
+  "sample.tex" 1603708337 11364 01e1f958396118afc75b5cd87ad84080 ""
   (generated)
-  "sample.log"
   "sample.aux"
   "sample.dvi"
+  "sample.log"
