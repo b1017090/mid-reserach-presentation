@@ -59,4 +59,12 @@ INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 OUTPUT sample.dvi
+INPUT img/コンテナ.png
+INPUT extractbb -B cropbox -O img/コンテナ.png
+INPUT img/プロセスマイグレーション.png
+INPUT extractbb -B cropbox -O img/プロセスマイグレーション.png
+INPUT img/提案図.png
+INPUT extractbb -B cropbox -O img/提案図.png
+INPUT img/BitVisor.png
+INPUT extractbb -B cropbox -O img/BitVisor.png
 INPUT sample.aux
